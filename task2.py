@@ -1,9 +1,9 @@
 #! python3
 name = input("What is your name ").strip()
-coolnames= ("Joe","Jeff","Jim","Jake")
+coolnames= ("Lebron","Kobe","Michale","Shaq","Dennis")
 for x in coolnames:
     if name == x:
-        print("you have a cool name")
+        print("That name is in the list")
         break
 if name not in coolnames:
-    print("your name is lame")
+    print("That name is not in the list")
